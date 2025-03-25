@@ -7,7 +7,7 @@ module Workshop2 (
 		Hardware u0 (
 		.clk_clk       (CLOCK_50),       //   clk.clk
 		.reset_reset_n (~SW), // reset.reset_n
-		.ledr_export   (LEDR),   //  ledr.export
+		.ledr_export   (LEDR[8:0]),   //  ledr.export
 		.key_export    (KEY)     //   key.export
 	);
 
